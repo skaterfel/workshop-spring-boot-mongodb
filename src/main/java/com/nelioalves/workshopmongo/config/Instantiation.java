@@ -12,11 +12,9 @@ import com.nelioalves.workshopmongo.repository.UserRepository;
 @Configuration
 public class Instantiation implements CommandLineRunner {
 
-	
 	@Autowired
 	private UserRepository userRepository;
-	
-	
+
 	@Override
 	public void run(String... args) throws Exception {
 		
